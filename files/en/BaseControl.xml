@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <basecontrol>
   <!-- Login and Logout System -->
-  <locale  key="login"	                                    text="§yellow{0} ist dem Spiel beigetreten." />
-  <locale  key="logout"	                                    text="§yellow{0} hat das Spiel verlassen." />
-  <locale  key="kick"	                                      text="§yellow{0} wurde aus dem Spiel geworfen!" />
-  <locale  key="afkkick"	                                  text="§yellow{0} wurde wegen Inaktivität aus dem Spiel geworfen!" />
-  <locale  key="ban"                                        text="§yellow{0} wurde {If,{1}}permanent{Else}temporär{EndIf} gebannt!" />
+  <locale  key="login"	                                    text="§yellow{0} joined the game." />
+  <locale  key="logout"	                                    text="§yellow{0} left the game." />
+  <locale  key="kick"	                                      text="§yellow{0} has been kicked!" />
+  <locale  key="afkkick"	                                  text="§yellow{0} has been kicked because of inactivity!" />
+  <locale  key="ban"                                        text="§yellow{0} has been banned {If,{1}}permanently{Else}temporarily{EndIf}!" />
 
   <!-- Map Radius -->
-  <locale  key="radius_near"	                              text="§redDu bist nurnoch wenige Blöcke von der Kartengrenze entfernt!" />
-  <locale  key="radius_reached"	                            text="§redDu hast die Kartengrenze erreicht!" />
+  <locale  key="radius_near"	                              text="§redYou are next to the map border!" />
+  <locale  key="radius_reached"	                            text="§redYou have reached the map border!" />
   
   <!-- Find Shared -->
-  <locale  key="shared_no_zones"	                          text="§redEs wurde keine Zone gefunden!" />
-  <locale  key="shared_find_event"	                        text="§darkgreenEventZone (§gold{0}§darkgreen) gefunden" />
-  <locale  key="shared_find_parent"	                        text="§darkgreenZone(§gold{0}§darkgreen) der Gruppe §gold{1}§darkgreen von §gold{2}§darkgreen gefunden!" />
-  <locale  key="shared_find_child"	                        text="§darkgreenKindZone(§gold{0}§darkgreen) der Gruppe §gold{1}§darkgreen von §gold{2}§darkgreen gefunden!" />
-  <locale  key="shared_find_teleport"	                      text="§darkgreenTeleportZone (§gold{0}§darkgreen) gefunden, Warppunkt: §gold{1}" />
-  <locale  key="shared_find_trade"	                        text="§darkgreenLaden §gold{0}§darkgreen gefunden: Verkäufer: §gold{1}" />
-  <locale  key="shared_find_tradeinfo"	                    text="§darkgreenInfowand (§gold{0}§darkgreen) gefunden!" />
-  <locale  key="shared_measure_size"	                      text="§darkgreenDer gewählte Bereich ist §gold{0}§darkgreen lang, §gold{1}§darkgreen hoch und §gold{2}§darkgreen breit." />
-  <locale  key="shared_measure_area"	                      text="§darkgreenDamit hat er eine Fläche von §gold{0}§darkgreen sowie ein Volumen von §gold{1}§darkgreen." />
-  <locale  key="shared_measure_blocks"	                    text="§darkgreenVon allen Blöcken sind §gold{0}%§darkgreen aus Luft und §gold{1}§darkgreen Blöcke aus anderen Materialien!" />
+  <locale  key="shared_no_zones"	                          text="§redNo zone found!" />
+  <locale  key="shared_find_event"	                        text="§darkgreenFound event zone §gold{0}§darkgreen" />
+  <locale  key="shared_find_parent"	                        text="§darkgreenFound zone §gold{0}§darkgreen of group §gold{1}§darkgreen by §gold{2}§darkgreen!" />
+  <locale  key="shared_find_child"	                        text="§darkgreenFound child zone §gold{0}§darkgreen of group §gold{1}§darkgreen by §gold{2}§darkgreen!" />
+  <locale  key="shared_find_teleport"	                      text="§darkgreenFound teleport zone §gold{0}§darkgreen, its warp point is §gold{1}" />
+  <locale  key="shared_find_trade"	                        text="§darkgreenFound shop §gold{0}§darkgreen. The trader is §gold{1}" />
+  <locale  key="shared_find_tradeinfo"	                    text="§darkgreenFound information wall §gold{0}§darkgreen!" />
+  <locale  key="shared_measure_size"	                      text="§darkgreenThe chosen area is §gold{0}§darkgreen blocks long, §gold{1}§darkgreen blocks high and §gold{2}§darkgreen blocks wide." />
+  <locale  key="shared_measure_area"	                      text="§darkgreenIts surface is §gold{0}§darkgreen, its volume §gold{1}§darkgreen blocks." />
+  <locale  key="shared_measure_blocks"	                    text="§darkgreen§gold{0}%§darkgreen of the blocks are air, §gold{1}§darkgreen blocks are made of different materials!" />
   
   <!-- Commands -->
-  <locale  key="findcommand_on"	                            text="§darkgreenFind wurde aktiviert. Schlage mit einem §gold{0}§darkgreen auf den Boden um Zonen zu suchen!" />
-  <locale  key="findcommand_off"	                          text="§redFind wurde deaktiviert!" />
+  <locale  key="findcommand_on"	                            text="§darkgreenFind has been activated. Hit the ground with a §gold{0}§darkgreen to search for zones!" />
+  <locale  key="findcommand_off"	                          text="§redFind has been deactivated!" />
   
-  <locale  key="helpcommand_help"	                          text="§greenDie Regeln findest du unter: §goldhttp://uwmc.de/rules" />
+  <locale  key="helpcommand_help"	                          text="§greenYou can find the rules there: §goldhttp://uwmc.de/rules" />
   
-  <locale  key="languagecommand_error"	                    text="§redDie Sprache §gold{0}§red wurde nicht gefunden!" />
-  <locale  key="languagecommand_success"	                  text="§darkgreenDeine Sprache wurde geändert auf: §gold{0}" />
+  <locale  key="languagecommand_error"	                    text="§redThe language §gold{0}§red has not been found!" />
+  <locale  key="languagecommand_success"	                  text="§darkgreenYour language was set to §gold{0}§darkgreen." />
   
-  <locale  key="measurecommand_set"	                        text="§darkgreenMeasure wurde {If,{0}}§greenaktiviert{Else}§reddeaktiviert{EndIf}§darkgreen!" />
-  <locale  key="measurecommand_info"	                      text="§darkgreenBlicke mit einem §gold{0}§darkgreen sowohl Rechts als auch Links auf Blöcke um einen Bereich zu makieren!{newline}Der Bereich kann nachträglich wieder bearbeitet werden" />
+  <locale  key="measurecommand_set"	                        text="§darkgreenMeasure has been {If,{0}}§greenactivated{Else}§reddeactivated{EndIf}§darkgreen!" />
+  <locale  key="measurecommand_info"	                      text="§darkgreenClick with a §gold{0}§darkgreen both right and left at blocks to mark an area!{newline}You can change the area as often as you want." />
   
-  <locale  key="playerconfig_set"	                          text="§darkgreenDer Wert §gold{0}§darkgreen wurde {If,{1}}§greenaktiviert{Else}§reddeaktiviert{EndIf}§darkgreen!" />
+  <locale  key="playerconfig_set"	                          text="§darkgreenThe key §gold{0}§darkgreen has been {If,{1}}§greenactivated{Else}§reddeactivated{EndIf}§darkgreen!" />
   
-  <locale  key="playerversusplayercommand_on_success"	      text="§darkgreenDein PvP wurde aktiviert!{newline}Du kannst es in {Time,{0}} deaktivieren!" />
-  <locale  key="playerversusplayercommand_on_error"	        text="§redDein PvP ist bereits aktiviert!" />
-  <locale  key="playerversusplayercommand_off_success"	    text="§greenDein PvP wurde erfolgreich deaktiviert!" />
-  <locale  key="playerversusplayercommand_off_error1"	      text="§redDu kannst PvP erst in §gold{Time,{0}}§red deaktivieren!" />
-  <locale  key="playerversusplayercommand_off_error2"	      text="§redDu hast kein PvP aktiviert!" />
-  <locale  key="playerversusplayercommand_status"	          text="§darkgreenDein PvP ist momentan {If,{0}}§greendeaktiviert{Else}§redaktiviert{EndIf}§darkgreen!" />
+  <locale  key="playerversusplayercommand_on_success"	      text="§darkgreenPvP has been activated for you!{newline}You may deactivate it in {Time,{0}}!" />
+  <locale  key="playerversusplayercommand_on_error"	        text="§redPvP is already activated for you!" />
+  <locale  key="playerversusplayercommand_off_success"	    text="§greenPvP has been deactivated for you!" />
+  <locale  key="playerversusplayercommand_off_error1"	      text="§redYou need to wait §gold{Time,{0}}§red before deactivating PvP!" />
+  <locale  key="playerversusplayercommand_off_error2"	      text="§redPvP is already deactivated for you!" />
+  <locale  key="playerversusplayercommand_status"	          text="§darkgreenPvP is currently {If,{0}}§greendeactivated{Else}§redactivated{EndIf}§darkgreen for you!" />
   
-  <locale  key="statscommand_stats"	                        text="§darkgreenServer Statistiken von §gold{0}§darkgreen:" />
-  <locale  key="statscommand_pms"	                          text="§darkgreenErhaltene/Geschriebene/Gelesene PMs: §gold{0}§darkgreen/§gold{1}§darkgreen/§gold{2}" />
-  <locale  key="statscommand_messages"	                    text="§darkgreenGeschriebene Nachrichten: §gold{0}" />
-  <locale  key="statscommand_commands"	                    text="§darkgreenAusgeführte Befehle§darkgreen: §gold{0}" />
-  <locale  key="statscommand_maxonline"	                    text="§darkgreenInsgesamt Onlinezeit§darkgreen: §gold{Time,{0}}" />
-  <locale  key="statscommand_curonline"	                    text="§darkgreenAktuelle Onlinezeit§darkgreen: §gold{Time,{0}}" />
+  <locale  key="statscommand_stats"	                        text="§darkgreenServer stats by §gold{0}§darkgreen:" />
+  <locale  key="statscommand_pms"	                          text="§darkgreenReceived/written/read PMs: §gold{0}§darkgreen/§gold{1}§darkgreen/§gold{2}" />
+  <locale  key="statscommand_messages"	                    text="§darkgreenWritten messages: §gold{0}" />
+  <locale  key="statscommand_commands"	                    text="§darkgreenExecuted commands§darkgreen: §gold{0}" />
+  <locale  key="statscommand_maxonline"	                    text="§darkgreenComplete time online§darkgreen: §gold{Time,{0}}" />
+  <locale  key="statscommand_curonline"	                    text="§darkgreenCurrent time online§darkgreen: §gold{Time,{0}}" />
   
-  <locale  key="whocommand_empty"	                          text="§redEs sind keine Spieler online!" />
-  <locale  key="whocommand_output"	                        text="§darkgreenEs sind §gold{0}§darkgreen Spieler online: §reset{1}" />
+  <locale  key="whocommand_empty"	                          text="§redNo players found!" />
+  <locale  key="whocommand_output"	                        text="§darkgreen§gold{0}§darkgreen players are online: §reset{1}" />
 </basecontrol>

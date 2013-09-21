@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <antiidle>
   <!-- Anti Idle System -->
-  <locale  key="kick"	                                      text="§redDu wurdest wegen Inaktivität aus dem Spiel geworfen!" />
+  <locale  key="kick"	                                      text="§redYou have been kicked because of inactivity!" />
   
   <!-- Commands -->
-  <locale  key="idlecommand_state"	                        text="§darkgreenAntiIdle wurde {If,{0}}§greenaktiviert{Else}§reddeaktiviert{EndIf}§darkgreen!" />
-  <locale  key="idlecommand_time"	                          text="§darkgreenZeit der benötigten Inaktivität gesetzt auf §gold{Time,{0}}" />
-  <locale  key="idlecommand_player_set"	                    text="§gold{0}§darkgreen wird nun von AntiIdle {If,{1}}§greenbeachtet{Else}§redignoriert{EndIf}§darkgreen!" />
-  <locale  key="idlecommand_player_reset"	                  text="§gold{0}§darkgreen wird nun von AntiIdle §greennormal behandelt§darkgreen!" />
+  <locale  key="idlecommand_state"	                        text="§darkgreenAntiIdle has been {If,{0}}§greenactivated{Else}§reddeactivated{EndIf}§darkgreen!" />
+  <locale  key="idlecommand_time"	                          text="§darkgreenSet time of needed inactivity to §gold{Time,{0}}" />
+  <locale  key="idlecommand_player_set"	                    text="§darkgreenAntiIdle is now {If,{1}}§greenobserving{Else}§redignoring{EndIf}§gold{0}§darkgreen!" />
+  <locale  key="idlecommand_player_reset"	                  text="§darkgreen§gold{0}§darkgreen's status has been §greenreset§darkgreen!" />
 </antiidle>
