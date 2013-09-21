@@ -1,4 +1,4 @@
-GermanLocale
+EnglishLocale
 ============
 
-Deutsche Sprachausgabe fÃ¼r Arandur
+Englische Sprachausgabe für Arandur
