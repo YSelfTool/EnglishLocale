@@ -1,59 +1,58 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <tradingsystem>
-	<locale key="tradecommand_nostore_self"															text="§redDu hast momentan keine Reservierung für einen Laden am laufen!" />
-	<locale key="tradecommand_nostore_other"														text="§gold{0}§red hat keinen Laden reserviert!" />
-	<locale key="tradecommand_hasstore"																	text="§redDu hast bereits eine Reservierung am laufen. Du kannst nur einen Laden reservieren!" />
-	<locale key="tradecommand_claim_chest"															text="§redDu musst eine Kiste ansehen um eine Reservierung vorzunehmen!" />
-	<locale key="tradecommand_claim_nonefree"														text="§redEs ist momentan kein freier Laden verfügbar! Versuche es später erneut!" />
-	<locale key="tradecommand_claim_error"															text="§redEs ist ein unbekannter Fehler aufgetreten! Wende dich an einen Admin!" />
-	<locale key="tradecommand_claim_notallowed"													text="§redDu musst 1 Tag warten bevor du erneut einen Laden mieten kannst!" />
-	<locale key="tradecommand_claim_success"														text="§darkgreenDir wurde der Laden §gold{0}§darkgreen zugewiesen!" />
-	<locale key="tradecommand_claim_info"																text="§goldInfo:§green Füge neue Güter über §gold/trade add§green hinzu!" />
-	<locale key="tradecommand_add_unknownmaterial"											text="§redEines der angegebenen Items wurde nicht erkannt!" />
-	<locale key="tradecommand_add_error"																text="§redDu musst ein zu verkaufendes Item in der Hotbar auswählen!" />
-	<locale key="tradecommand_add_success"															text="§darkgreenDu verkaufst nun §gold{0}§darkgreen für §gold{1}§darkgreen!" />
-	<locale key="tradecommand_add_maxrecipes"														text="§redDu hast die maximale Anzahl an gleichzeitigen Angeboten erreicht!" />
-	<locale key="tradecommand_add_notsameworld"													text="§redDu befindest dich nicht in der selben Welt wie der Laden!" />
-	<locale key="tradecommand_abort_self"																text="§redDein Laden wurde geschlossen. Alle übrigend Güter wurden an deine Kiste gesendet!" />
-	<locale key="tradecommand_abort_other"															text="§redDer Laden von §gold{0}§red wurde von §gold{1}§red geschlossen!" />
-	<locale key="tradecommand_create_zone_start"												text="§darkgreenErstellung eines Ladens begonnen. Wähle einen 3D Bereich mit einem §gold{0}§darkgreen aus!" />
-	<locale key="tradecommand_create_zone_stop"													text="§redLadenerstellung abgebrochen!" />
-	<locale key="tradecommand_delete_zone_success"											text="§redDer Laden mit der Id §gold{0}§red wurde gelöscht!" />
-	<locale key="tradecommand_delete_zone_error"												text="§redEs existiert kein Laden an deiner Position oder er konnte nicht gelöscht werden!" />
-	<locale key="tradecommand_create_info_start"												text="§darkgreenErstellung einer Infowand begonnen. Wähle einen 3D Bereich mit einem §gold{0}§darkgreen aus!" />
-	<locale key="tradecommand_create_info_stop"													text="§Infowanderstellung abgebrochen!" />
-	<locale key="tradecommand_delete_info_success"											text="§redDie Infowand mit der Id §gold{0}§red wurde gelöscht!" />
-	<locale key="tradecommand_delete_info_error"												text="§redEs existiert keine Infowand an deiner Position oder sie konnte nicht gelöscht werden!" />
-	<locale key="tradecommand_list"																			text="§greenDer Laden besitzt momentan diese Angebote:" />
-	<locale key="tradecommand_list_entry1"															text="§gold{0}§darkgreen: §gold{1} {2}§darkgreen für §gold{3} {4}" />
-	<locale key="tradecommand_list_entry2"															text="§gold{0}§darkgreen: §gold{1} {2}§darkgreen für §gold{3} {4}§darkgreen und §gold{5} {6}" />
-	<locale key="tradecommand_list_empty"																text="§redDer Laden hat momentan keine Angebote!" />
- 	<locale key="tradecommand_del_notfound"															text="§redDas Angebot §gold{0}§red wurde nicht gefunden, es gibt nur §gold{1}§red Angebote!" />
-	<locale key="tradecommand_del_success"															text="§darkgreenAngebot wurde zurückgezogen. Es wurden §gold{0} {1}§darkgreen an deine Kiste überwiesen" />
-	<locale key="tradecommand_del_error_fill"														text="§redIn deiner Kiste ist nichtmehr genüg Platz für §gold{1} §red(§gold{0}§red)!" />
-  <locale key="tradecommand_setname_success"													text="§darkgreenDer Laden §gold{0}§darkgreen wurde umbenannt in §gold{1}§darkgreen!" />
-	<locale key="tradecommand_setname_error"														text="§redDer Laden §gold{0}§red konnte nicht umbenannt werden. Existiert er überhaupt?" />
-	<locale key="tradecommand_find_none"																text="§redMomentan verkauft kein Laden §gold{0}§red!" />
-	<locale key="tradecommand_find_success"															text="§darkgreenEs verkaufen §gold{0}§darkgreen Läden §gold{1}§darkgreen:" />
-	<locale key="tradecommand_find_result"															text="§gold{0}§darkgreen verkauft §gold{1} {2}§darkgreen für §gold{3} {4}{If,{5}} §darkgreenund §gold{6} {7}{EndIf}§darkgreen!" />
-	<locale key="tradecommand_refresh_success"													text="§greenDie Läden und Infowände haben ihren Cache erneuert!" />
+	<locale key="tradecommand_nostore_self"															text="§redYou have currently not reserved any store!" />
+	<locale key="tradecommand_nostore_other"														text="§gold{0}§red has currently not reserved any store!" />
+	<locale key="tradecommand_hasstore"																	text="§redYou already have reserved a store. That's enough!" />
+	<locale key="tradecommand_claim_chest"															text="§redYou need to look at a chest to reserve a store!" />
+	<locale key="tradecommand_claim_nonefree"														text="§redCurrently no store is empty! Try again later!" />
+	<locale key="tradecommand_claim_error"															text="§redAn unknown error occured! Please tell this an admin!" />
+	<locale key="tradecommand_claim_notallowed"													text="§redYou need to wait at least one day until claiming a store again!" />
+	<locale key="tradecommand_claim_success"														text="§darkgreenYou have got the store §gold{0}§darkgreen!" />
+	<locale key="tradecommand_claim_info"																text="§goldInfo:§green You can add new offers with §gold/trade add§green!" />
+	<locale key="tradecommand_add_unknownmaterial"											text="§redOne of your items is unknown!" />
+	<locale key="tradecommand_add_error"																text="§redYou must select an item in you hotbar!" />
+	<locale key="tradecommand_add_success"															text="§darkgreenYou are now selling §gold{0}§darkgreen for §gold{1}§darkgreen!" />
+	<locale key="tradecommand_add_maxrecipes"														text="§redYou have reached the maximum number of offers!" />
+	<locale key="tradecommand_add_notsameworld"													text="§redYou are not in the same world as you store!" />
+	<locale key="tradecommand_abort_self"																text="§redYour store has been closed. All remaining items are in your chest!" />
+	<locale key="tradecommand_abort_other"															text="§redThe store §gold{0}§red has been closed by §gold{1}§red!" />
+	<locale key="tradecommand_create_zone_start"												text="§darkgreenCreating the store has been started. Choose a threedimensional space with a §gold{0}§darkgreen!" />
+	<locale key="tradecommand_create_zone_stop"													text="§redCreating the store has been cancelled!" />
+	<locale key="tradecommand_delete_zone_success"											text="§redThe store with the ID §gold{0}§red has been removed!" />
+	<locale key="tradecommand_delete_zone_error"												text="§redThere is no store at your location or it could not be removed!" />
+	<locale key="tradecommand_create_info_start"												text="§darkgreenCreating the information wall has been started. Choose a threedimensional space with a §gold{0}§darkgreen!" />
+	<locale key="tradecommand_create_info_stop"													text="§Creating the information wall has been cancelled!" />
+	<locale key="tradecommand_delete_info_success"											text="§redThe information wall with ID §gold{0}§red has been removed!" />
+	<locale key="tradecommand_delete_info_error"												text="§redThere is no information wall at your location or it could not be removed!" />
+	<locale key="tradecommand_list"																			text="§greenThe store currently has these offers:" />
+	<locale key="tradecommand_list_entry1"															text="§gold{0}§darkgreen: §gold{1} {2}§darkgreen for §gold{3} {4}" />
+	<locale key="tradecommand_list_entry2"															text="§gold{0}§darkgreen: §gold{1} {2}§darkgreen for §gold{3} {4}§darkgreen and §gold{5} {6}" />
+	<locale key="tradecommand_list_empty"																text="§redThe store currently has no offers!" />
+ 	<locale key="tradecommand_del_notfound"															text="§redThe offer §gold{0}§red has not been found, there are just §gold{1}§red offers!" />
+	<locale key="tradecommand_del_success"															text="§darkgreenOffer has been removed. §gold{0} {1}§darkgreen have been moved to your chest." />
+	<locale key="tradecommand_del_error_fill"														text="§redThere's not enough place in you chest for §gold{1} §red(§gold{0}§red)!" />
+  <locale key="tradecommand_setname_success"													text="§darkgreenThe store §gold{0}§darkgreen has been renamed to §gold{1}§darkgreen!" />
+	<locale key="tradecommand_setname_error"														text="§redThe store §gold{0}§red could not be renamed. Does it exist?" />
+	<locale key="tradecommand_find_none"																text="§redCurrently no store sells §gold{0}§red!" />
+	<locale key="tradecommand_find_success"															text="§darkgreen§gold{0}§darkgreen stores sell §gold{1}§darkgreen:" />
+	<locale key="tradecommand_find_result"															text="§gold{0}§darkgreen sells §gold{1} {2}§darkgreen for §gold{3} {4}{If,{5}} §darkgreenand §gold{6} {7}{EndIf}§darkgreen!" />
+	<locale key="tradecommand_refresh_success"													text="§greenThe stores and information walls have refreshed there caches!" />
 
-	<locale key="storenotreserved"																			text="§redDer Laden ist momentan nicht belegt. Warum reservierst du ihn nicht?" />
-	<locale key="blockdestroydenied"																		text="§redDie Truhe ist mit einem Laden verknüpft und darf nicht abgebaut werden!" />
-	<locale key="storenotreserved"																			text="§redDer Laden ist momentan nicht belegt. Warum reservierst du ihn nicht?" />
-	<locale key="notrades"																							text="§redEs sind momentan keine Angebote verfügbar!" />
-	<locale key="alreadytrading"																				text="§redDer Verkäufer handelt bereits mit §gold{0}§red!" />
-	<locale key="tradeaccept"																						text="§darkgreenDir wurden soeben im Laden §gold{0} {1}§darkgreen abgekauft!" />
-	<locale key="nolongeravailable"																			text="§redDas Angebot ist nicht länger verfügbar!" />
-	<locale key="idledtoolong"																					text="§redDu hast zu lange gezögert. Der Händler hat das Interesse verloren!" />
-	<locale key="tradeagaintofast"																			text="§redDu kannst nicht sofort wieder einen Laden ansehen." />
+	<locale key="storenotreserved"																			text="§redThe store is currently not reserved. Why don't you reserve it?" />
+	<locale key="blockdestroydenied"																		text="§redThe chest is connected with a store and may not be destroyed!" />
+	<locale key="notrades"																							text="§redThere are currently no offers!" />
+	<locale key="alreadytrading"																				text="§redThe salesperson already trades with §gold{0}§red!" />
+	<locale key="tradeaccept"																						text="§darkgreenYou have sold in your store §gold{0} {1}§darkgreen!" />
+	<locale key="nolongeravailable"																			text="§redThe offer is no longer available!" />
+	<locale key="idledtoolong"																					text="§redYou have waited too long. The salesperson lost his interest!" />
+	<locale key="tradeagaintofast"																			text="§redYou need to wait a little bit until trading with a store again." />
 
-	<locale key="create_position1"																			text="§greenPosition 1 gesetzt: §gold{0}§greenx §gold{1}§greeny §gold{3}§greenz §gray({4})" />
-	<locale key="create_position2"                   										text="§greenPosition 2 gesetzt: §gold{0}§greenx §gold{1}§greeny §gold{3}§greenz §gray({4})" />
-	<locale key="create_zone_collide"																		text="§redDer neue Laden kollidiert mit einem existierenden! Erstellung abgebrochen!" />
-	<locale key="create_zone_success"																		text="§greenDer neue Laden wurde erfolgreich erstellt!" />
-	<locale key="create_zone_error"																			text="§redDer Laden konnte nicht erstellt werden!" />
-	<locale key="create_info_collide"																		text="§redDie Infowand kollidiert mit einer existierenden! Erstellung abgebrochen!" />
-	<locale key="create_info_success"																		text="§greenDie neue Infowand wurde erfolgreich erstellt!" />
-	<locale key="create_info_error"																			text="§redDie Infowand konnte nicht erstellt werden!" />
+	<locale key="create_position1"																			text="§greenPosition 1 set: §gold{0}§greenx §gold{1}§greeny §gold{3}§greenz §gray({4})" />
+	<locale key="create_position2"                   										text="§greenPosition 2 set: §gold{0}§greenx §gold{1}§greeny §gold{3}§greenz §gray({4})" />
+	<locale key="create_zone_collide"																		text="§redThe new store collides with an old one! Creation canceled!" />
+	<locale key="create_zone_success"																		text="§greenThe new store has successfully been created!" />
+	<locale key="create_zone_error"																			text="§redThe store could not be created!" />
+	<locale key="create_info_collide"																		text="§redThe information wall collides with an existing one! Creation canceled!" />
+	<locale key="create_info_success"																		text="§greenThe new information wall has successfully been created!" />
+	<locale key="create_info_error"																			text="§redThe information wall could not be created!" />
 </tradingsystem>
