@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <default>
 	<!-- Default Output for insufficient Rights for Commands Message -->
-	<locale key="insufficientrights"		text="§redNicht genügend Rechte für diesen Befehl!" />
+	<locale key="insufficientrights"		text="§redYou may not use this command!" />
 
 	<!-- Default Outputs for often used text passages -->
-	<locale key="onlyplayers"						text="§redNur Spieler dürfen diese Aktion durchführen!" />
-  <locale key="unknownplayer"					text="§redDer Spieler §gold{0}§red wurde nicht gefunden!" />
-	<locale key="notonline"							text="§redDer Spieler §gold{0}§red ist momentan nicht online!" />
-  <locale key="unknownworld"					text="§redDie Welt §gold{0}§red wurde nicht gefunden!" />
-	<locale key="unknownnumber"					text="§redDer angegebene Wert §gold{0}§red ist keine Zahl!" />
-	<locale key="unknownitem"						text="§redEs wurde kein übereinstimmendes Item zu §gold{0}§red gefunden!" />
-	<locale key="unknownmaterial"				text="§redEs wurde kein passendes Material zu §gold{0}§red gefunden!" />
-  <locale key="unknowntime"				    text="§redKonnte Zeitangabe §gold{0}§red nicht auflösen!" />
-  <locale key="unknowngroup"				  text="§redDie Gruppe §gold{0}§red wurde nicht gefunden!" />
-  <locale key="unknownzonetype"				text="§redDer Zonentyp §gold{0}§red wurde nicht gefunden!" />
+	<locale key="onlyplayers"						text="§redOnly players can perform this action!" />
+  <locale key="unknownplayer"					text="§redThe player §gold{0}§red has not been found!" />
+	<locale key="notonline"							text="§redThe player §gold{0}§red is currently not online!" />
+  <locale key="unknownworld"					text="§redThe world §gold{0}§red has not been found!" />
+	<locale key="unknownnumber"					text="§redThe value §gold{0}§red is not a number!" />
+	<locale key="unknownitem"						text="§redNo suitable item for §gold{0}§red found!" />
+	<locale key="unknownmaterial"				text="§redNo suitable material for §gold{0}§red found!" />
+  <locale key="unknowntime"				    text="§red§gold{0}§red is no valid time!" />
+  <locale key="unknowngroup"				  text="§redGroup §gold{0}§red has not been found!" />
+  <locale key="unknownzonetype"				text="§redZone type §gold{0}§red has not been found!" />
   
   <!-- Zone System Find and Create Messages -->
-  <locale key="zone_posa_cuboid"	    text="§darkgreenKlicke mit einem §gold{0}§darkgreen nun den ersten Eckpunkt an!" />
-  <locale key="zone_posa_sphere"	    text="§darkgreenKlicke mit einem §gold{0}§darkgreen nun den Mittelpunkt an!" />
-  <locale key="zone_posa_cylinder"	  text="§darkgreenKlicke mit einem §gold{0}§darkgreen nun den Mittelpunkt an!" />
-  <locale key="zone_posa"					    text="§darkgreenPosition §goldA§darkgreen gesetzt bei: §gold{0}x {1}y {2}z" />
-  <locale key="zone_posb_cuboid"	    text="§darkgreenKlicke nun den zweiten Eckpunkt an!" />
-  <locale key="zone_posb_sphere"	    text="§darkgreenKlicke nun den gewünschten Radius(Entfernung) an!" />
-  <locale key="zone_posb_cylinder"	  text="§darkgreenKlicke nun den gewünschten Radius(Entfernung) inklusive der Höhe an!" />
-  <locale key="zone_posb"			        text="§darkgreenPosition §goldB§darkgreen gesetzt bei: §gold{0}x {1}y {2}z" />  
+  <locale key="zone_posa_cuboid"	    text="§darkgreenClick with a §gold{0}§darkgreen at the first corner!" />
+  <locale key="zone_posa_sphere"	    text="§darkgreenClick with a §gold{0}§darkgreen at the center!" />
+  <locale key="zone_posa_cylinder"	  text="§darkgreenClick with a §gold{0}§darkgreen at the center!" />
+  <locale key="zone_posa"					    text="§darkgreenPosition §goldA§darkgreen has been set to: §gold{0}x {1}y {2}z" />
+  <locale key="zone_posb_cuboid"	    text="§darkgreenNow click at the second corner!" />
+  <locale key="zone_posb_sphere"	    text="§darkgreenNow click at the radius (distance)!" />
+  <locale key="zone_posb_cylinder"	  text="§darkgreenNow click at the radius (distance) with the height!" />
+  <locale key="zone_posb"			        text="§darkgreenPosition §goldB§darkgreen has been set to: §gold{0}x {1}y {2}z" />  
 
 	<!-- The Time -->
-	<locale key="millisecond"						text="Millisekunde" />
-	<locale key="milliseconds"					text="Millisekunden" />
-	<locale key="second"								text="Sekunde" />
-	<locale key="seconds"								text="Sekunden" />
-	<locale key="minute"								text="Minute" />
-	<locale key="minutes"								text="Minuten" />
-	<locale key="hour"									text="Stunde" />
-	<locale key="hours"									text="Stunden" />
-	<locale key="day"										text="Tag" />
-	<locale key="days"									text="Tage" />
-	<locale key="month"									text="Monat" />
-	<locale key="months"								text="Monate" />
-	<locale key="year"									text="Jahr" />
-	<locale key="years"									text="Jahre" />
+	<locale key="millisecond"						text="millisecond" />
+	<locale key="milliseconds"					text="milliseconds" />
+	<locale key="second"								text="second" />
+	<locale key="seconds"								text="seconds" />
+	<locale key="minute"								text="minute" />
+	<locale key="minutes"								text="minutes" />
+	<locale key="hour"									text="hour" />
+	<locale key="hours"									text="hours" />
+	<locale key="day"										text="day" />
+	<locale key="days"									text="days" />
+	<locale key="month"									text="month" />
+	<locale key="months"								text="months" />
+	<locale key="year"									text="year" />
+	<locale key="years"									text="years" />
   
   <!-- The Months -->
-  <locale key="january"								text="Januar" />
-  <locale key="february"							text="Februar" />
-  <locale key="march"									text="März" />
-  <locale key="april"									text="April" />
-  <locale key="may"								   	text="Mai" />
-  <locale key="june"									text="Juni" />
-  <locale key="juli"									text="Juli" />
-  <locale key="september"							text="September" />
-  <locale key="october"								text="Oktober" />
-  <locale key="november"							text="November" />
-  <locale key="december"							text="Dezember" />
+  <locale key="january"								text="january" />
+  <locale key="february"							text="february" />
+  <locale key="march"									text="march" />
+  <locale key="april"									text="april" />
+  <locale key="may"								   	text="may" />
+  <locale key="june"									text="june" />
+  <locale key="juli"									text="juli" />
+  <locale key="september"							text="september" />
+  <locale key="october"								text="october" />
+  <locale key="november"							text="november" />
+  <locale key="december"							text="december" />
 </default>
