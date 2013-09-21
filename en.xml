@@ -93,7 +93,7 @@
 	based on German (Deutsch) by DerTod2 2013
 	http://unlimitedworld.de/
 -->
-<german>
+<english>
 	<locale key="name"	        value="English" />
   <locale key="tag"	          value="en" />
   <locale key="description"	  value="English as good as I know it" />
@@ -119,4 +119,4 @@
   <file name="UnlockManager.xml" />
   <file name="WarnSystem.xml" />
   <file name="WorldLogger.xml" />
-</german>
+</english>
