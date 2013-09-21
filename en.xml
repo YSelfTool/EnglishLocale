@@ -22,7 +22,10 @@
 		-> Als Eingabe hier bitte "true" für kurz und "false" für lang.
 	-> expressions
 		-> Erlaubt das Parsen von einigen zusätzlichen Codes, Genauere Informationen hierzu im Abschnitt "Hardcoded Expressions"
-
+  -> leet
+    -> automatically changes letters to numbers, so the output looks like Leet (1337)
+  
+  
 #################################
 ## Hardcoded Expressions
 #################################
@@ -102,7 +105,8 @@
 
 	<setting key="shortcolor"	  value="false" />
 	<setting key="expressions"	value="true" />
-  
+  <setting key="leet"         value="false" />
+           
   <file name="AntiIdle.xml" />
   <file name="BaseControl.xml" />
   <file name="Blocks.xml" />
