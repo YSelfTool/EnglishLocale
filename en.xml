@@ -88,16 +88,17 @@
 
 <!--
 	.: Unlimitedworld Locales System by DerTod2 2013 :.
-
-	German (Deutsch) by DerTod2 2013
+  
+  English (Englisch) by YSelfTool 2013
+	based on German (Deutsch) by DerTod2 2013
 	http://unlimitedworld.de/
 -->
 <german>
-	<locale key="name"	        value="Deutsch" />
-  <locale key="tag"	          value="de" />
-  <locale key="description"	  value="Klassisches Hochdeutsch ohne (bewusste) Dialekte" />
-	<locale key="author"	  		value="DerTod2" />
-	<locale key="version"				value="2.01" />
+	<locale key="name"	        value="English" />
+  <locale key="tag"	          value="en" />
+  <locale key="description"	  value="English as good as I know it" />
+	<locale key="author"	  		value="YSelfTool" />
+	<locale key="version"				value="1.00" />
 
 	<setting key="shortcolor"	  value="false" />
 	<setting key="expressions"	value="true" />
