@@ -31,7 +31,7 @@
   <locale  key="ignorecommand_staff"	                       text="§redYou may not ignore a staff!" />
   
   <locale  key="ignorelistcommand_empty"	                   text="§greenYou ignore no players." />
-  <locale  key="ignorelistcommand_list"	                     text="$darkgreenYou ignore §gold{0}§darkgreen players: §gold{1}" />
+  <locale  key="ignorelistcommand_list"	                     text="§darkgreenYou ignore §gold{0}§darkgreen players: §gold{1}" />
   
   <locale  key="privatemessagecommand_send_success"					 text="§darkgreenthe message '§gold{0}§darkgreen' has been sent to §gold{1}§darkgreen!" />
   <locale  key="privatemessagecommand_send_error"						 text="§redCould not send the message, an error occured!" />
