@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ultimatezones>
   <!-- Zone Adding -->
-  <locale  key="add_child_positionerror"	                   text="§redDie Position befindet sich nicht innerhalb der übergeordneten Gruppe oder Zone!" />
-  <locale  key="add_collide_child"	                         text="§redDie Zone kollidiert mit der Zone §gold{0}§red der Gruppe §gold{1}§red!" />
-  <locale  key="add_collide_parent"	                         text="§redDie Zone kollidiert mit einer Zone der Gruppe §gold{0}§red!" />
-  <locale  key="add_success_child"	                         text="§darkgreenDie Zone wurde erfolgreich der Gruppe §gold{0}§darkgreen hinzugefügt!" />
-  <locale  key="add_success_parent"	                         text="§darkgreenDie Zone wurde erfolgreich der Gruppe §gold{0}§darkgreen hinzugefügt!" />
-  <locale  key="add_error_groups"	                           text="§redDu darfst maximal §gold{0}§red Gruppen besitzen!" />
-  <locale  key="add_error_parents"	                         text="§redDu darfst maximal §gold{0}§red normale Zonen besitzen!" />
-  <locale  key="add_error_child"	                           text="§redDu darfst maximal §gold{0}§red KindZonen besitzen!" />
-  <locale  key="add_error_area"	                             text="§redDu darfst maximal eine Fläche aller Zonen von §gold{0}§red besitzen!" />
-  <locale  key="add_error_world"	                           text="§redIn dieser Welt sind keine Zonen erlaubt!" />
-  <locale  key="add_error_maxlength"	                       text="§redDie Seiten dürfen maximal §gold{0}§red lang sein!" />
-  <locale  key="add_error_minlength"	                       text="§redDie Seiten müssen minimal §gold{0}§red lang sein!" />
-  <locale  key="add_error_aspectratio"	                     text="§redDie Seiten dürfen untereinander maximal §gold{0}§red so lang sein!" />
+  <locale  key="add_child_positionerror"	                   text="§redThe position is not inside the parent group or zone!" />
+  <locale  key="add_collide_child"	                         text="§redThe zone collides with the zone §gold{0}§red of the group §gold{1}§red!" />
+  <locale  key="add_collide_parent"	                         text="§redThe zone collides with a zone of the group §gold{0}§red!" />
+  <locale  key="add_success_child"	                         text="§darkgreenThe zone has successfully been added to the group §gold{0}§darkgreen!" />
+  <locale  key="add_success_parent"	                         text="§darkgreenThe zone has successfully been added to the group §gold{0}§darkgreen!" />
+  <locale  key="add_error_groups"	                           text="§redYou may have maximally §gold{0}§red groups!" />
+  <locale  key="add_error_parents"	                         text="§redYou may have maximally §gold{0}§red normal zones!" />
+  <locale  key="add_error_child"	                           text="§redYou may have maximally §gold{0}§red child zones!" />
+  <locale  key="add_error_area"	                             text="§redAll of your zones may maximally have a surface of §gold{0}§red!" />
+  <locale  key="add_error_world"	                           text="§redZones in this world are not permitted!" />
+  <locale  key="add_error_maxlength"	                       text="§redThe sides may maximally be §gold{0}§red blocks long!" />
+  <locale  key="add_error_minlength"	                       text="§redThe sides may minimally be §gold{0}§red blocks long!" />
+  <locale  key="add_error_aspectratio"	                     text="§redThe sides may maximally be §gold{0}§red times as long as the other!" />
 
   <!-- Shared Messages -->
-  <locale  key="shared_unknowngroup"	                       text="§redDie Zonengruppe §gold{0}§red existiert nicht!" />
-  <locale  key="shared_existinggroup"	                       text="§redDie Zonengruppe §gold{0}§red existiert schon und gehört §gold{1}§red!" />
-  <locale  key="shared_unknowngroup"	                       text="§redDie Zonengruppe §gold{0}§red existiert nicht!" />
-  <locale  key="shared_nogrouprights"	                       text="§redDu darfst die Zonengruppe §gold{0}§red nicht bearbeiten!" />
-  <locale  key="shared_unknownright"	                       text="§redDas Recht §gold{0}§red wurde nicht gefunden!" />
-  <locale  key="shared_unknownzone"	                         text="§redDie Zone §gold{0}§red wurde nicht gefunden!" />
-  <locale  key="shared_nochildzone"	                         text="§redDie Zone §gold{0}§red ist keine KindZone!" />
-  <locale  key="shared_nozonerights"	                       text="§redDu darfst die Zone §gold{0}§red nicht bearbeiten!" />
-  <locale  key="shared_nobuildingrights"	                   text="§redDu hast nicht genug Rechte in der Gruppe §gold{1}§red (Zone: §gold{0}§red) für diese Aktion!" />
-  <locale  key="shared_unknownpreset"	                       text="§redDas Preset §gold{0}§red wurde nicht gefunden!" />
+  <locale  key="shared_unknowngroup"	                       text="§redThe group §gold{0}§red does not exist!" />
+  <locale  key="shared_existinggroup"	                       text="§redThe group §gold{0}§red already exists and belongs to §gold{1}§red!" />
+  <locale  key="shared_unknowngroup"	                       text="§redThe group §gold{0}§red does not exist!" />
+  <locale  key="shared_nogrouprights"	                       text="§redYou may not edit the group §gold{0}§red!" />
+  <locale  key="shared_unknownright"	                       text="§redThe right §gold{0}§red has not been found!" />
+  <locale  key="shared_unknownzone"	                         text="§redThe zone §gold{0}§red has not been found!" />
+  <locale  key="shared_nochildzone"	                         text="§redThe zone §gold{0}§red is no child zone!" />
+  <locale  key="shared_nozonerights"	                       text="§redYou may not edit the zone §gold{0}§red!" />
+  <locale  key="shared_nobuildingrights"	                   text="§redYou have not enough rights in the group §gold{1}§red (zone: §gold{0}§red) for this action!" />
+  <locale  key="shared_unknownpreset"	                       text="§redThe preset §gold{0}§red has not been found!" />
   
   <!-- Commands -->
-  <locale  key="groupcommand_add_maxgroups"	                 text="§redDu hast das Limit von maximal §gold{0}§red Zonengruppen erreicht!" />
-  <locale  key="groupcommand_add_success"	                   text="§darkgreenDie Zonengruppe §gold{0}§darkgreen wurde für §gold{1}§darkgreen angelegt!" />
-  <locale  key="groupcommand_del_success"	                   text="§darkgreenDie Zonengruppe §gold{0}§darkgreen wurde §redgelöscht§darkgreen!" />
-  <locale  key="groupcommand_right_toggle"	                 text="§darkgreenDas Recht §gold{0}§darkgreen für die Gruppe §gold{1}§darkgreen wurde {If,{2}}§greenhinzugefügt{Else}§redentfernt{EndIf}" /> 
-  <locale  key="groupcommand_group_list"	                   text="§darkgreenEs wurden §gold{0}§darkgreen Standardrechte für die Gruppe §gold{1}§darkgreenvergeben: §gold{2}" />
-  <locale  key="groupcommand_group_list_empty"	             text="§redEs wurden bisher keine Standardrechte vergeben!" />
-  <locale  key="groupcommand_list"	                         text="§darkgreenEs gibt §gold{0}§darkgreen Rechte die vergeben werden können: §gold{1}" />
+  <locale  key="groupcommand_add_maxgroups"	                 text="§redYou have reached the limit of §gold{0}§red groups!" />
+  <locale  key="groupcommand_add_success"	                   text="§darkgreenThe group §gold{0}§darkgreen was created for §gold{1}§darkgreen!" />
+  <locale  key="groupcommand_del_success"	                   text="§darkgreenThe group §gold{0}§darkgreen was §reddeleted§darkgreen!" />
+  <locale  key="groupcommand_right_toggle"	                 text="§darkgreenThe right §gold{0}§darkgreen in the group §gold{1}§darkgreen was {If,{2}}§greenadded{Else}§red{EndIf}" /> 
+  <locale  key="groupcommand_group_list"	                   text="§darkgreen§gold{0}§darkgreen default rights have been assigned for the group §gold{1}§darkgreen: §gold{2}" />
+  <locale  key="groupcommand_group_list_empty"	             text="§redNo default rights are assigned!" />
+  <locale  key="groupcommand_list"	                         text="§darkgreenThere are §gold{0}§darkgreen rights which can be assigned: §gold{1}" />
   
-  <locale  key="rightscommand_group_list"	                   text="§darkgreenFür die Gruppe §gold{0}§darkgreen wurden Rechte verteilt an: §gold{1}" />  
-  <locale  key="rightscommand_group_list_empty"	             text="§redEs wurden bisher keine Rechte vergeben!" />
-  <locale  key="rightscommand_group_list_player"	           text="§darkgreenEs wurden folgende Rechte an §gold{0}§darkgreen vergeben: §gold{1}" />
-  <locale  key="rightscommand_group_list_player_empty"	     text="§redEs wurden bisher keine Rechte für §gold{0}§red vergeben!" />
-  <locale  key="rightscommand_group_clear"	                 text="§redEs wurden alle vergebenen Rechte für die Gruppe §gold{0}§red entfernt!" />
-  <locale  key="rightscommand_group_clear_player"	           text="§redEs wurden alle Rechte an §gold{0}§red in der Gruppe §gold{1}§red entfernt!" />
-  <locale  key="rightscommand_group_set_right"	             text="§gold{0}§darkgreen wurde für die Gruppe §gold{1}§darkgreen das Recht §gold{2} {If,{3}}§greengegeben{Else}§redgenommen{EndIf}§darkgreen!" />
-  <locale  key="rightscommand_group_set_place"	             text="§darkgreenFür §gold{0}§darkgreen wurde in der Gruppe §gold{1} {2} §darkgreender§gold Place Liste {If,{3}}§greenhinzugefügt{Else}§redentfernt{EndIf}§darkgreen!" />
-  <locale  key="rightscommand_group_set_break"	             text="§darkgreenFür §gold{0}§darkgreen wurde in der Gruppe §gold{1} {2} §darkgreender§gold Break Liste {If,{3}}§greenhinzugefügt{Else}§redentfernt{EndIf}§darkgreen!" />  
-  <locale  key="rightscommand_group_set_preset"	             text="§gold{0}§darkgreen wurde für die Gruppe §gold{1}§darkgreen das Preset §gold{2}§darkgreen zugewiesen!" />
-  <locale  key="rightscommand_zone_list"	                   text="§darkgreenFür die Zone §gold{0}§darkgreen wurden Rechte verteilt an: §gold{1}" />  
-  <locale  key="rightscommand_zone_list_empty"	             text="§redEs wurden bisher keine Rechte vergeben!" />
-  <locale  key="rightscommand_zone_list_player"	             text="§darkgreenEs wurden folgende Rechte an §gold{0}§darkgreen vergeben: §gold{1}" />
-  <locale  key="rightscommand_zone_list_player_empty"	       text="§redEs wurden bisher keine Rechte für §gold{0}§red vergeben!" />
-  <locale  key="rightscommand_zone_clear"	                   text="§redEs wurden alle vergebenen Rechte für die Zone §gold{0}§red entfernt!" />
-  <locale  key="rightscommand_zone_clear_player"	           text="§redEs wurden alle Rechte an §gold{0}§red in der Zone §gold{1}§red entfernt!" />
-  <locale  key="rightscommand_zone_set_right"	               text="§gold{0}§darkgreen wurde für die Zone §gold{1}§darkgreen das Recht §gold{2} {If,{3}}§greengegeben{Else}§redgenommen{EndIf}§darkgreen!" />
-  <locale  key="rightscommand_zone_set_place"	               text="§darkgreenFür §gold{0}§darkgreen wurde in der Zone §gold{1} {2} §darkgreender§gold Place Liste {If,{3}}§greenhinzugefügt{Else}§redentfernt{EndIf}§darkgreen!" />
-  <locale  key="rightscommand_zone_set_break"	               text="§darkgreenFür §gold{0}§darkgreen wurde in der Zone §gold{1} {2} §darkgreender§gold Break Liste {If,{3}}§greenhinzugefügt{Else}§redentfernt{EndIf}§darkgreen!" />  
-  <locale  key="rightscommand_zone_set_preset"	             text="§gold{0}§darkgreen wurde für die Zone §gold{1}§darkgreen das Preset §gold{2}§darkgreen zugewiesen!" />
-  <locale  key="rightscommand_list"	                         text="§darkgreenEs gibt momentan §gold{0}§darkgreen Rechte: §gold{1}" />  
-  <locale  key="rightscommand_list_presets"	                 text="§darkgreenEs gibt momentan §gold{0}§darkgreen Presets: §gold{1}" />
+  <locale  key="rightscommand_group_list"	                   text="§darkgreenIn the group §gold{0}§darkgreen following players have rights: §gold{1}" />  
+  <locale  key="rightscommand_group_list_empty"	             text="§redThere are no rights assigned!" />
+  <locale  key="rightscommand_group_list_player"	           text="§darkgreenThe player §gold{0}§darkgreen has the following rights: §gold{1}" />
+  <locale  key="rightscommand_group_list_player_empty"	     text="§red§gold{0}§red currently has no rights in the group!" />
+  <locale  key="rightscommand_group_clear"	                 text="§redAll rights in the group §gold{0}§red have been removed!" />
+  <locale  key="rightscommand_group_clear_player"	           text="§redAll rights for §gold{0}§red in the group §gold{1}§red have been removed!" />
+  <locale  key="rightscommand_group_set_right"	             text="§gold{0}§darkgreen {If,{3}}§greengot{Else}§redlost{EndIf}§darkgreen the right §gold{2} in the group §gold{1}§darkgreen!" />
+  <locale  key="rightscommand_group_set_place"	             text="§darkgreenFor §gold{0}§darkgreen {2} has been {If,{3}}§greenadded to{Else}§redremoved from{EndIf}§darkgreen the place list in the group §gold{1}§darkgreen!" />
+  <locale  key="rightscommand_group_set_break"	             text="§darkgreenFor §gold{0}§darkgreen {2} has been {If,{3}}§greenadded to{Else}§redremoved from{EndIf}§darkgreen the break list in the group §gold{1}§darkgreen!" />  
+  <locale  key="rightscommand_group_set_preset"	             text="§gold{0}§darkgreen got the preset §gold{2}§darkgreen in the group §gold{1}§darkgreen!" />
+  <locale  key="rightscommand_zone_list"	                   text="§darkgreenFollowing players have rights for the zone §gold{0}§darkgreen: §gold{1}" />  
+  <locale  key="rightscommand_zone_list_empty"	             text="§redNo rights have been assigned!" />
+  <locale  key="rightscommand_zone_list_player"	             text="§darkgreenThe following rights have been assigned to §gold{0}§darkgreen: §gold{1}" />
+  <locale  key="rightscommand_zone_list_player_empty"	       text="§redCurrently there are no rights assigned for §gold{0}§red!" />
+  <locale  key="rightscommand_zone_clear"	                   text="§redAll rights for the zone §gold{0}§red have been removed!" />
+  <locale  key="rightscommand_zone_clear_player"	           text="§red§gold{0}§red has lost all his rights in the zone §gold{1}§red!" />
+  <locale  key="rightscommand_zone_set_right"	               text="§gold{0}§darkgreen {If,{3}}§greengot{Else}§redlost{EndIf}§darkgreen the right §gold{2} in the zone §gold{1}§darkgreen!" />
+  <locale  key="rightscommand_zone_set_place"	               text="§darkgreenFor §gold{0}§darkgreen {2} has been §gold{If,{3}}§greenadded to{Else}§redremoved from{EndIf}§darkgreen the place list in the zone §gold{1}§darkgreender!" />
+  <locale  key="rightscommand_zone_set_break"	               text="§darkgreenFor §gold{0}§darkgreen {2} has been §gold{If,{3}}§greenadded to{Else}§redremoved from{EndIf}§darkgreen the break list in the zone §gold{1}§darkgreender!" />  
+  <locale  key="rightscommand_zone_set_preset"	             text="§gold{0}§darkgreen got the preset §gold{2}§darkgreen in the zone §gold{1}§darkgreen!" />
+  <locale  key="rightscommand_list"	                         text="§darkgreenThere are currently §gold{0}§darkgreen rights: §gold{1}" />  
+  <locale  key="rightscommand_list_presets"	                 text="§darkgreenThere are currently §gold{0}§darkgreen presets: §gold{1}" />
 
-  <locale  key="zonecommand_add_parent"	                     text="§greenDie Erstellung wurde begonnen!" />
-  <locale  key="zonecommand_add_child"	                     text="§greenDie Erstellung wurde begonnen!" />
-  <locale  key="zonecommand_add_abort"	                     text="§redDie Zonenerstellung wurde abgebrochen!" />
-  <locale  key="zonecommand_del_success"	                   text="§redDie Zone §gold{0}§red wurde gelöscht!" />
+  <locale  key="zonecommand_add_parent"	                     text="§greenThe creation has been started!" />
+  <locale  key="zonecommand_add_child"	                     text="§greenThe creation has been started!" />
+  <locale  key="zonecommand_add_abort"	                     text="§redThe zone creation has been cancelled!" />
+  <locale  key="zonecommand_del_success"	                   text="§redThe zone §gold{0}§red has been removed!" />
   
 </ultimatezones>
