@@ -10,7 +10,7 @@
   <locale  key="shared_unknownteleport"	                     text="§redThe teleporter §gold{0}§red has not been found!" />
   
   <!-- Commands -->
-  <locale  key="homecommand_success_self"	                   text="§greenYou have been warped home." />
+  <locale  key="homecommand_success_self"	                   text="§greenYou have been warped to your home." />
   <locale  key="homecommand_success_other"	                 text="§darkgreenYou have been warped to the home of §gold{0}§darkgreen!" />
   <locale  key="homecommand_error_self"	                     text="§redYou have no home!" />
   <locale  key="homecommand_error_self_world"	               text="§redYou can't teleport to your home from another world!" />
