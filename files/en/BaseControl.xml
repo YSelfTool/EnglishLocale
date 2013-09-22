@@ -23,6 +23,13 @@
   <locale  key="shared_measure_area"	                      text="§darkgreenIts surface is §gold{0}§darkgreen, its volume §gold{1}§darkgreen blocks." />
   <locale  key="shared_measure_blocks"	                    text="§darkgreen§gold{0}%§darkgreen of the blocks are air, §gold{1}§darkgreen blocks are made of different materials!" />
   
+  <!-- Offline System -->
+  <locale key="offline_guest_forbidden"	                    text="§redGuests can't login,{newline}while the session servers are offline!" />
+  <locale key="offline_timelimitreached"	                  text="§redYou needed longer than §gold{Time,{0}}§red!{newline}Try it again!" />
+  <locale key="offline_boardauthmissing"	                  text="§redPlease authentificate in the forum first!" />
+  <locale key="offline_processstart"	                      text="§redTo play on §gold{0}§red please authentificate in the forum now!{newline}You have §gold{Time,{1}}§red!" />
+  <locale key="offline_sessionchanged"	                    text="§goldAttention:§darkgreen The Mojang session servers are {If,{0}}§greenonline{Else}§redoffline{EndIf}§darkgreen!" />
+
   <!-- Commands -->
   <locale  key="findcommand_on"	                            text="§darkgreenFind has been activated. Hit the ground with a §gold{0}§darkgreen to search for zones!" />
   <locale  key="findcommand_off"	                          text="§redFind has been deactivated!" />
@@ -35,6 +42,9 @@
   <locale  key="measurecommand_set"	                        text="§darkgreenMeasure has been {If,{0}}§greenactivated{Else}§reddeactivated{EndIf}§darkgreen!" />
   <locale  key="measurecommand_info"	                      text="§darkgreenClick with a §gold{0}§darkgreen both right and left at blocks to mark an area!{newline}You can change the area as often as you want." />
   
+  <locale key="passwordcommand_success"	                    text="§greenYour password has been set successfully!" />
+  <locale key="passwordcommand_error"	                      text="§redYour password has to be at least §gold{0}§red and maximally §gold{1}§red letters long!" />
+
   <locale  key="playerconfig_set"	                          text="§darkgreenThe key §gold{0}§darkgreen has been {If,{1}}§greenactivated{Else}§reddeactivated{EndIf}§darkgreen!" />
   
   <locale  key="playerversusplayercommand_on_success"	      text="§darkgreenPvP has been activated for you!{newline}You may deactivate it in {Time,{0}}!" />
