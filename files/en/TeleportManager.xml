@@ -27,7 +27,7 @@
   
   <locale  key="warpcommand_warp"	                           text="§darkgreenYou have been teleported to the warp §gold{0}§darkgreen!" />
   
-  <locale  key="warpscommand_empty"	                         text="§redNo warps {If,{0}}for §gold{1}§red {EndIf} have been found!" />
+  <locale  key="warpscommand_empty"	                         text="§redNo warps {If,{0}}for §gold{1}§red {EndIf}have been found!" />
   <locale  key="warpscommand_list"	                         text="{If,{0}}§gold{1}§darkgreen has{Else}§darkgreenThere are{EndIf} §gold{2}§darkgreen warps: {newline}§gold{3}" />
 
   <locale  key="teleportcommand_edit_group"	                 text="§darkgreenThe teleporter §gold{0}§darkgreen needs the group §gold{1}§darkgreen now!" />
