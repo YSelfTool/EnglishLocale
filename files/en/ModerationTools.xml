@@ -7,7 +7,7 @@
   <!-- Commands -->
   <locale  key="bancommand_autoremove"	                     text="§greyPrevious temporary ban of §gold{0}§grey has been removed automatically!" />
   <locale  key="bancommand_error"	                           text="§gold{0}§red has already been banned permanently by §gold{2}§red because of §gold{1}§red!" />
-  <locale  key="bancommand_ban"	                             text="§gold{0}§darkgreen has bannen §gold{1}§darkgreen permanently because of §gold{2}" />
+  <locale  key="bancommand_ban"	                             text="§gold{0}§darkgreen has banned §gold{1}§darkgreen permanently because of §gold{2}" />
   
   <locale  key="executecommand_execute"	                     text="§gold{0}§darkgreen executes the command §gold{1}§darkgreen!" />
   
