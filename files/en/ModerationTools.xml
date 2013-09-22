@@ -12,7 +12,7 @@
   <locale  key="executecommand_execute"	                     text="§gold{0}§darkgreen executes the command §gold{1}§darkgreen!" />
   
   <locale  key="flycommand_self"	                           text="§darkgreenFlying has been §gold{If,{0}}activated{Else}deactivated{EndIf}" />
-  <locale  key="flycommand_other"	                           text="§gold{0}§darkgreen has {If,{2}}deactivated{Else}deactivated{EndIf} flying for §gold{1}" />
+  <locale  key="flycommand_other"	                           text="§gold{0}§darkgreen has {If,{2}}activated{Else}deactivated{EndIf} flying for §gold{1}" />
   
   <locale  key="gamemodecommand_error"	                     text="§redNo gamemode for §gold{0}§red has been found!" />
   <locale  key="gamemodecommand_changed"	                   text="§gold{0}§darkgreen has changed the gamemode of §gold{1}§darkgreen to §gold{2}§darkgreen!" />
