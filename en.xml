@@ -101,7 +101,7 @@
   <locale key="tag"	          value="en" />
   <locale key="description"	  value="English as good as I know it" />
 	<locale key="author"	  		value="YSelfTool" />
-	<locale key="version"				value="1.00" />
+	<locale key="version"				value="1.01" />
 
 	<setting key="shortcolor"	  value="false" />
 	<setting key="expressions"	value="true" />
