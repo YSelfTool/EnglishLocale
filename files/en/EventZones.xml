@@ -1,26 +1,43 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <eventzones>
-  <!-- Help System -->
-  <locale  key="ignore"	                                     text="§gold{0}§red ignoriert deine Nachrichten!" />
+  
+  <!-- Help System Non Timed -->
+  <locale  key="help_key_break"                               text="Listing the types is possible with <ItemId:SubId,ItemId:SubId,...>" />
+  <locale  key="help_key_place"                               text="Listing the types is possible with <ItemId:SubId,ItemId:SubId,...>" />
+  <locale  key="help_key_interact"                           text="Listing the types is possible with <ItemId:SubId,ItemId:SubId,...>" />
+  <locale  key="help_key_blockdamagebyentitys"               text="No additional help available!" />
+  <locale  key="help_key_playerversusplayer"                 text="No additional help available!" />
+  <locale  key="help_key_drop"                               text="Listing the types is possible with <ItemId:SubId,ItemId:SubId,...>" />
+  <locale  key="help_key_pickup"                             text="Listing the types is possible with <ItemId:SubId,ItemId:SubId,...>" />
+  <locale  key="help_key_denyteleport"                       text="No additional help available!" />
+  
+  <!-- Help System Timed -->
+  <locale  key="help_key_noenter"                             text="No additional help available!" />
+  <locale  key="help_key_noleave"                             text="No additional help available!" />
+  <locale  key="help_key_entermessage"                       text="The messages also support colors (e.g. &amp;c for red)" />
+  <locale  key="help_key_leavemessage"                       text="The messages also support colors (e.g. &amp;c for red)" />
+  <locale  key="help_key_potion"                             text="Possible arguments are 'clear', '<EffectName>' and '<EffectName> <Duration> <Strength>'" />
+  <locale  key="help_key_teleport"                           text="Write '<World> <X> <Y> <Z> [<Yaw> <Pitch>]'" />
+    
   
   <!-- Shared Messages -->
-  <locale  key="shared_unknowneventzone"	                   text="§redDie EventZone §gold{0}§red wurde nicht gefunden!" />
-  <locale  key="shared_unknowneventkey"	                     text="§redDie Einstellung §gold{0}§red wurde nicht gefunden!" />
-  <locale  key="shared_collisionzone"	                       text="§redDie EventZone killidiert mit der anderen EventZone §gold{0}§red!" />
-  <locale  key="shared_eventzoneadd"	                       text="§darkgreenDie EventZone §gold{0}§darkgreen wurde erstellt!" />
+  <locale  key="shared_unknowneventzone"	                   text="§redThe event zone §gold{0}§red has not been found!" />
+  <locale  key="shared_unknowneventkey"	                     text="§redThe key §gold{0}§red has not been found!" />
+  <locale  key="shared_collisionzone"	                       text="§redThe event zone collides with the other event zone §gold{0}§red!" />
+  <locale  key="shared_eventzoneadd"	                       text="§darkgreenThe event zone §gold{0}§darkgreen has been created!" />
    
   <!-- Commands -->
-  <locale  key="eventzonecommand_add"	                       text="§darkgreenErstellung einer Event-Zone {If,{0}}§greengestartet{Else}§redabgebrochen{EndIf}§darkgreen!" />
-  <locale  key="eventzonecommand_delete"	                   text="§darkgreenDie EventZone §gold{0}§darkgreen sowie alle zusätzlichen Einstellungen wurden gelöscht!" />
-  <locale  key="eventzonecommand_list_empty"	               text="§redFür die EventZone §gold{0}§red wurden bisher keine Einstellungen vergeben!" />
-  <locale  key="eventzonecommand_list"	                     text="§darkgreenFür die EventZone §gold{0}§darkgreen wurden bisher §gold{1}§darkgreen Einstellungen vergeben:" />
-  <locale  key="eventzonecommand_list_entry"	               text="§darkgreenTyp: §gold{0}§darkgreen, Stand: §gold{If{1}}Positiv{Else}Negativ{EndIf}, Zusatz: §gold{2}" />
-  <locale  key="eventzonecommand_set_error"	                 text="§redDie Einstellung §gold{0}§red ist für die EventZone §gold{1}§red bereits gesetzt!" />
-  <locale  key="eventzonecommand_set_success"	               text="§darkgreenDie Einstellung §gold{0}§darkgreen wurde der EventZone §gold{1}§darkgreen erfolgreich hinzugefügt!" />
-  <locale  key="eventzonecommand_unset_error"	               text="§redDie EventZone §gold{0}§red beinahltet die Einstellung §gold{1}§red nicht!" />
-  <locale  key="eventzonecommand_unset_success"	             text="§darkgreenDie Einstellung §gold{0}§darkgreen wurde von der EventZone §gold{1}§darkgreen entfernt!" />
-  <locale  key="eventzonecommand_help_list"	                 text="§darkgreenEs gibt §gold{0}§darkgreen Einstellungen: §gold{1}" />
-  <locale  key="eventzonecommand_help_key"	                 text="§darkgreenInformationen zur Einstellung §gold{0}§darkgreen (Id: §gold{1}§darkgreen):" />
-  <locale  key="eventzonecommand_help_arguments"	           text="§darkgreenErlaubt zusätzliche Argumente: {If,{0}}§greenJa, werden erlaubt{Else}§redNein, werden nicht benutzt{EndIf}" />
-  <locale  key="eventzonecommand_help_tip"	                 text="§darkgreen: Tipp: §gold{0}" />
+  <locale  key="eventzonecommand_add"	                       text="§darkgreenCreation of an event zone has been {If,{0}}§greenstarted{Else}§redaborted{EndIf}§darkgreen!" />
+  <locale  key="eventzonecommand_delete"	                   text="§darkgreenThe event zone §gold{0}§darkgreen and all related keys has been removed!" />
+  <locale  key="eventzonecommand_list_empty"	               text="§redThere are currently no keys related to the event zone §gold{0}§red!" />
+  <locale  key="eventzonecommand_list"	                     text="§darkgreenThere are currently §gold{1}§darkgreen keys related to the event zone §gold{0}§darkgreen:" />
+  <locale  key="eventzonecommand_list_entry"	               text="§darkgreenType: §gold{0}§darkgreen, State: §gold{If{1}}positive{Else}negative{EndIf}, Extra: §gold{2}" />
+  <locale  key="eventzonecommand_set_error"	                 text="§redThe key §gold{0}§red has already been set for the event zone §gold{1}§red!" />
+  <locale  key="eventzonecommand_set_success"	               text="§darkgreenThe key §gold{0}§darkgreen has been added to the event zone §gold{1}§darkgreen!" />
+  <locale  key="eventzonecommand_unset_error"	               text="§redThe event zone §gold{0}§red does not contain the key §gold{1}§red!" />
+  <locale  key="eventzonecommand_unset_success"	             text="§darkgreenThe key §gold{0}§darkgreen has been removed from the event zone §gold{1}§darkgreen!" />
+  <locale  key="eventzonecommand_help_list"	                 text="§darkgreenThere are §gold{0}§darkgreen keys: §gold{1}" />
+  <locale  key="eventzonecommand_help_key"	                 text="§darkgreenInformation about the key §gold{0}§darkgreen (Id: §gold{1}§darkgreen):" />
+  <locale  key="eventzonecommand_help_arguments"	           text="§darkgreenAdditional arguments: {If,{0}}§greenYes, are possible{Else}§redNo, are not used{EndIf}" />
+  <locale  key="eventzonecommand_help_tip"	                 text="§darkgreen: Hint: §gold{0}" />
 </eventzones>
