@@ -29,7 +29,8 @@
   <locale key="offline_boardauthmissing"	                  text="§redPlease authentificate in the forum first!" />
   <locale key="offline_processstart"	                      text="§redTo play on §gold{0}§red please authentificate in the forum now!{newline}You have §gold{Time,{1}}§red!" />
   <locale key="offline_sessionchanged"	                    text="§goldAttention:§darkgreen The Mojang session servers are {If,{0}}§greenonline{Else}§redoffline{EndIf}§darkgreen!" />
-
+  <locale key="offline_nopassword"                          text="§redYou need a set password for the offline login!" />
+  
   <!-- Commands -->
   <locale  key="findcommand_on"	                            text="§darkgreenFind has been activated. Hit the ground with a §gold{0}§darkgreen to search for zones!" />
   <locale  key="findcommand_off"	                          text="§redFind has been deactivated!" />
