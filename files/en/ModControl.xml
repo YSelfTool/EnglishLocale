@@ -3,6 +3,10 @@
   <!-- Plugins Command Description -->
   <locale key="description"                                  text="Maintains all plugins and data of the server{newline}It's the API between the plugins and Bukkit" />
 
+  <!-- Localized Say Command Outputs -->
+  <locale key="lsay_backupscreated"                          text="§darkgreen[§green{ServerName}§darkgreen] §goldBackups have been created..." />
+  <locale key="lsay_mapsgenerated"                           text="§darkgreen[§green{ServerName}§darkgreen] §goldMaps have been generated..." />
+
   <!-- Server Login and Logout System -->
   <locale  key="isfull"	                                     text="§redThe server is full!" />
   
