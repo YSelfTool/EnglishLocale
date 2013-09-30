@@ -38,9 +38,9 @@
   <locale  key="groupcommand_group_list"	                   text="§darkgreen§gold{0}§darkgreen default rights have been assigned for the group §gold{1}§darkgreen: §gold{2}" />
   <locale  key="groupcommand_group_list_empty"	             text="§redNo default rights are assigned!" />
   <locale  key="groupcommand_list"	                         text="§darkgreenThere are §gold{0}§darkgreen rights which can be assigned: §gold{1}" />
-  <locale  key="groupcommand_info"                           text="§darkgreenThe group §gold{0} contains §gold{1}§darkgreen parent zones and §gold{2}§darkgreen child zones:" />
-  <locale  key="groupcommand_info_parent"                    text="§darkgreenParent zone §gold{0} is at §gold{1}§darkgreenx §gold{2}§darkgreeny §gold{3}§darkgreenz" />
-  <locale  key="groupcommand_info_child"                     text="§darkgreenChild zone §gold{0} of the zone {1} is at §gold{2}§darkgreenx §gold{3}§darkgreeny §gold{4}§darkgreenz" />
+  <locale  key="groupcommand_info"                           text="§darkgreenThe group §gold{0}§darkgreen contains §gold{1}§darkgreen parent zones and §gold{2}§darkgreen child zones:" />
+  <locale  key="groupcommand_info_parent"                    text="§darkgreenParent zone §gold{0}§darkgreen is at §gold{1}§darkgreenx §gold{2}§darkgreeny §gold{3}§darkgreenz" />
+  <locale  key="groupcommand_info_child"                     text="§darkgreenChild zone §gold{0}§darkgreen of the zone {1} is at §gold{2}§darkgreenx §gold{3}§darkgreeny §gold{4}§darkgreenz" />
   
   <locale  key="rightscommand_group_list"	                   text="§darkgreenIn the group §gold{0}§darkgreen following players have rights: §gold{1}" />  
   <locale  key="rightscommand_group_list_empty"	             text="§redThere are no rights assigned!" />
