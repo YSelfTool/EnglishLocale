@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <eventhandler>
+  <!-- Plugins Command Description -->
+  <locale key="description"                                  text="Takes care of multiple tasks to enhance the playing experience" />
+
   <!-- Shared Messages -->
   <locale  key="shared_missingrights"	                       text="§redYou need to activate yourself (become a player) to play actively!" />
   <locale  key="shared_destroydepth"	                       text="§redYou may not break §gold{1}§red in public areas §gold{0}§red!" />

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <worldlogger>
+  <!-- Plugins Command Description -->
+  <locale key="description"                                  text="Stores building/breaking blocks and accessing containers" />
+
   <!-- Log System -->
   <locale  key="coords"	                                    text="§gold{If,{0}}Block{Else}Container{EndIf}§darkgreen Info about §gold{1} {2}x {3}y {4}z" />
   <locale  key="block"	                                    text="§gold{Date,dd.MM.yyyy HH:mm,{0}} -> ({If,{1}}placed{Else}broken{EndIf}) {2} §green| {3}:{4}" />

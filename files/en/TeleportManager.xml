@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <teleportmanager>
+  <!-- Plugins Command Description -->
+  <locale key="description"                                  text="Contains the home system, teleport platforms and warp points" />
+
   <!-- Teleport Add System -->
   <locale  key="zonecollision"	                             text="§redThe new teleporter collides with the teleporter §gold{0}§red!" />
   <locale  key="zonesuccesfully"	                           text="§darkgreenThe new teleporter (§gold{0}§darkgreen) has been created successfully!" />

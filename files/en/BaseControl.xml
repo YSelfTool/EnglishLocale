@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <basecontrol>
+  <!-- Plugins Command Description -->
+  <locale key="description"                                  text="Contains different commands and features{newline}that do not contain to other plugins" />
+
   <!-- Login and Logout System -->
   <locale  key="login"	                                    text="§yellow{0} joined the game." />
   <locale  key="logout"	                                    text="§yellow{0} left the game." />

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <antiidle>
+  <!-- Plugins Command Description -->
+  <locale key="description"                                  text="Kicks players from the server when they are inactive" />
+
   <!-- Anti Idle System -->
   <locale  key="kick"	                                      text="§redYou have been kicked because of inactivity!" />
   

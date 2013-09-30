@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <warnsystem>
+  <!-- Plugins Command Description -->
+  <locale key="description"                                  text="Enables moderators to internally save information about misconducts of players" />
+
   <locale  key="error"	                                  text="§redAn error occured." />
   <locale  key="add_success"                              text="§darkgreenWarning has been added: §gold{2}{newline}§darkgreenThe player §gold{0} §darkgreenhas now §gold{1} §darkgreenwarning points!" />
   <locale  key="del_success"	                            text="§redSuccessfully removed warning: §gold{2}{newline}§redThe player §gold{0} §redhas now §gold{1} §redwarning points!" />

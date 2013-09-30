@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <tradingsystem>
-	<locale key="tradecommand_nostore_self"															text="§redYou have currently not reserved any store!" />
+  <!-- Plugins Command Description -->
+  <locale key="description"                                  text="Enables stores with villagers and trading with them" />
+
+  <locale key="tradecommand_nostore_self"															text="§redYou have currently not reserved any store!" />
 	<locale key="tradecommand_nostore_other"														text="§gold{0}§red has currently not reserved any store!" />
 	<locale key="tradecommand_hasstore"																	text="§redYou already have reserved a store. That's enough!" />
 	<locale key="tradecommand_claim_chest"															text="§redYou need to look at a chest to reserve a store!" />

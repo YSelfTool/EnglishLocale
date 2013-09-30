@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <eventzones>
-  
+  <!-- Plugins Command Description -->
+  <locale key="description"                                  text="Enables using event zones and linking tasks to them" />
+
   <!-- Help System Non Timed -->
   <locale  key="help_key_break"                               text="Listing the types is possible with <ItemId:SubId,ItemId:SubId,...>" />
   <locale  key="help_key_place"                               text="Listing the types is possible with <ItemId:SubId,ItemId:SubId,...>" />

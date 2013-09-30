@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <worldlogger>
+  <!-- Plugins Command Description -->
+  <locale key="description"                                  text="Enables activating guests" />
+
   <!-- Unlock System -->
   <locale  key="unlock_login_guest"	                        text="§greenYour responsible staff is online again!" />
   <locale  key="unlock_login_staff"	                        text="§greenYour guest is online again!" />

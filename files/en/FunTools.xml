@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <funtools>
+  <!-- Plugins Command Description -->
+  <locale key="description"                                  text="Contains commands that are not really needed" />
+
   <locale  key="error"	                                  text="§redAn error occured!" />
   
   <locale  key="crashcommand_crash"	                      text="§gold{0}§darkgreen has crashed the client of §gold{1}§darkgreen!" />

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <moderationtools>
+  <!-- Plugins Command Description -->
+  <locale key="description"                                  text="Enables moderating the server (e.g. muting, kicking or banning players)" />
+
   <!-- Ban and Mute System -->
   <locale  key="login_banned"	                               text="§redYou are banned because of {newline}§gold{0}§red{If,{1}}{newline}for §gold{Time,{2}}{EndIf}" />
   <locale  key="chat_muted"	                                 text="§redYou are muted because of {newline}§gold{0}{newline}§redfor §gold{Time,{1}}" />

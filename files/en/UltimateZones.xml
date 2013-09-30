@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ultimatezones>
+  <!-- Plugins Command Description -->
+  <locale key="description"                                  text="Zone plugin with groups, parent and child zones, and a permissions system" />
+
   <!-- Zone Adding -->
   <locale  key="add_child_positionerror"	                   text="§redThe position is not inside the parent group or zone!" />
   <locale  key="add_collide_child"	                         text="§redThe zone collides with the zone §gold{0}§red of the group §gold{1}§red!" />
