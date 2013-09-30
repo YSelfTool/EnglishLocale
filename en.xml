@@ -14,7 +14,9 @@
 		-> Autor oder Autoren dieser Sprache
 	-> version
 		-> Aktuelle Version dieser Sprachdatei. Muss höher oder gleichwertig zum Server sein!
-
+  -> server
+    -> Path to a .zip file to use when updating the language
+    
 	Weiterhin können falls nötig noch Einstellungen getroffen werden.
 	Momentan wäre das:
 	-> shortcolor
