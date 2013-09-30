@@ -42,7 +42,16 @@
   
   <locale  key="languagecommand_error"	                    text="§redThe language §gold{0}§red has not been found!" />
   <locale  key="languagecommand_success"	                  text="§darkgreenYour language was set to §gold{0}§darkgreen." />
-  
+  <locale  key="languagecommand_updateinfo"                 text="$goldHint: §darkgreenYou can update languages you developed yourself with $gold/language update &lt;language&gt;" />
+  <locale  key="languagecommand_update_norights"            text="§redYou can only update your own languages!" />
+  <locale  key="languagecommand_update_error"               text="§redUpdate failed! Ask a Dev or Owner to update it manually!" />
+  <locale  key="languagecommand_update_success"             text="§greenUpdate has been successfull! The current version is §gold{0}§darkgreen!" />
+  <locale  key="languagecommand_info_locale"                text="§darkgreenInformation about the language §gold{0}§darkgreen with the tag §gold{1}§darkgreen:" />
+  <locale  key="languagecommand_info_author"                text="§darkgreenAuthor: §gold{0}" />
+  <locale  key="languagecommand_info_description"           text="§darkgreenDescription: §gold{0}" />
+  <locale  key="languagecommand_info_version"               text="§darkgreenVersion: §gold{0}" />
+  <locale  key="languagecommand_info_lastupdate"            text="§darkgreenLast update: §gold{Date,dd.MM.yyyy 'at' HH:mm,{0}}" />
+
   <locale  key="measurecommand_set"	                        text="§darkgreenMeasure has been {If,{0}}§greenactivated{Else}§reddeactivated{EndIf}§darkgreen!" />
   <locale  key="measurecommand_info"	                      text="§darkgreenClick with a §gold{0}§darkgreen both right and left at blocks to mark an area!{newline}You can change the area as often as you want." />
   
