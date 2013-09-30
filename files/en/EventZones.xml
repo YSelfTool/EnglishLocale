@@ -12,6 +12,7 @@
   <locale  key="help_key_drop"                               text="Listing the types is possible with &lt;ItemId:SubId,ItemId:SubId,...&gt;" />
   <locale  key="help_key_pickup"                             text="Listing the types is possible with &lt;ItemId:SubId,ItemId:SubId,...&gt;" />
   <locale  key="help_key_denyteleport"                       text="No additional help available!" />
+  <locale  key="help_key_denyitemspawn"                       text="Listing the types is possible with &lt;ItemId:SubId,ItemId:SubId,...&gt;" />
   
   <!-- Help System Timed -->
   <locale  key="help_key_noenter"                             text="No additional help available!" />
@@ -20,8 +21,8 @@
   <locale  key="help_key_leavemessage"                       text="The messages also support colors (e.g. &amp;c for red)" />
   <locale  key="help_key_potion"                             text="Possible arguments are 'clear', '&lt;EffectName&gt;' and '&lt;EffectName&gt; &lt;Duration&gt; &lt;Strength&gt;'" />
   <locale  key="help_key_teleport"                           text="Write '&lt;World&gt; &lt;X&gt; &lt;Y&gt; &lt;Z&gt; [&lt;Yaw&gt; &lt;Pitch&gt;]'" />
-    
-  
+  <locale  key="help_key_spleef"                             text="You need to specify an item (e.g. a shovel/the Id 269)" />
+
   <!-- Shared Messages -->
   <locale  key="shared_unknowneventzone"	                   text="§redThe event zone §gold{0}§red has not been found!" />
   <locale  key="shared_unknowneventkey"	                     text="§redThe key §gold{0}§red has not been found!" />
