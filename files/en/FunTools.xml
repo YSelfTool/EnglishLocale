@@ -6,8 +6,11 @@
   <locale  key="error"	                                  text="§redAn error occured!" />
   
   <locale  key="crashcommand_crash"	                      text="§gold{0}§darkgreen has crashed the client of §gold{1}§darkgreen!" />
-  
-	<locale key="speed_get"														      text="§darkgreenFlying speed of §gold{0}§darkgreen is §gold{1}§darkgreen!{newline}§darkgreenRunning speed of §gold{0}§darkgreen is §gold{2}§darkgreen!" />
+
+  <locale key="helmetcommand_success"                      text="§greenThe selected item has been set as your helmet!" />
+  <locale key="helmetcommand_error"                        text="§redYou haven't selected any valid item!" />
+
+  <locale key="speed_get"														      text="§darkgreenFlying speed of §gold{0}§darkgreen is §gold{1}§darkgreen!{newline}§darkgreenRunning speed of §gold{0}§darkgreen is §gold{2}§darkgreen!" />
   <locale key="speed_fly"										              text="§darkgreenSet flying speed of §gold{0}§darkgreen to §gold{1}§darkgreen!" />
   <locale key="speed_walk"										            text="§darkgreenSet running speed of §gold{0}§darkgreen to §gold{1}§darkgreen!" />
   
