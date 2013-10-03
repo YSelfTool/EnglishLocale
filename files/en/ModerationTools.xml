@@ -40,7 +40,16 @@
   <locale  key="mutecommand_error"	                         text="§gold{0}§red is already muted!" />
   <locale  key="mutecommand_mute"	                           text="§gold{0}§darkgreen muted §gold{1}§darkgreen because of §gold{2}§darkgreen for §gold{Time,{3}}" />
   <locale  key="mutecommand_mute_public"	                   text="§yellow{0} was muted for {Time,{1}} because of: {2}" />
+
+  <locale  key="playercommand_info"                          text="§darkgreenInformation about §gold{0}§darkgreen:" />
+  <locale  key="playercommand_status"                        text="§darkgreenState: {If,{0}}§greenOnline{Else}§redOffline{EndIf}" />
+  <locale  key="playercommand_extra"                         text="§darkgreenExtra: §gold{If,{0}==1}Banned permanently by §gold{1}{newline}§darkgreenReason: §gold{2}{EndIf}{If,{0}==2}Banned temporarily by §gold{1}{newline}§darkgreenReason: §gold{2}{newline}§darkgreenTime remaining: §gold{Time,{3}}{EndIf}{If,{0}==3}Muted by §gold{1}{newline}§darkgreenReason: §gold{2}{newline}§darkgreenTime remaining: §gold{Time,{3}}{EndIf}" />
+  <locale  key="playercommand_firstconnect"                  text="§darkgreenFirst connection: §gold{Date,dd.MM.yyyy '§darkgreenat§gold' HH:mm,{0}}" />
+  <locale  key="playercommand_lastconnect"                   text="§darkgreenLast connection: §gold{Date,dd.MM.yyyy '§darkgreenat§gold' HH:mm,{0}}" />
+  <locale  key="playercommand_bans"                          text="§darkgreenPermaBans/TempBans: §gold{0}§darkgreen/§gold{1}" />
+  <locale  key="playercommand_others"                        text="§darkgreenKicks/Mutes: §gold{0}§darkgreen/§gold{1}" />
   
+
   <locale  key="setspawncommand_set"	                       text="§gold{0}§darkgreen changed the spawn of the world §gold{1}§darkgreen!" />
   
   <locale  key="tempbancommand_error"	                       text="§gold{0}§red is already banned!" />
