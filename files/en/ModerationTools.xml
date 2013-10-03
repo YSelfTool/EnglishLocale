@@ -20,6 +20,19 @@
   <locale  key="gamemodecommand_error"	                     text="§redNo gamemode for §gold{0}§red has been found!" />
   <locale  key="gamemodecommand_changed"	                   text="§gold{0}§darkgreen has changed the gamemode of §gold{1}§darkgreen to §gold{2}§darkgreen!" />
 
+  <locale  key="headcommand_success"                         text="§darkgreen§gold{0}§darkgreen heads of §gold{1}§darkgreen have been added to your inventory!" />
+  
+  <locale  key="inventorycommand_clear_self"                 text="§greenYour inventory has been cleared!" />
+  <locale  key="inventorycommand_clear_other"                text="§gold{0}§darkgreen has cleared the inventory of §gold{1}§darkgreen!" />
+  <locale  key="inventorycommand_save_exist"                 text="§redAn inventory with the name §gold{0}§red has already been saved!" />
+  <locale  key="inventorycommand_save_error"                 text="§redAn error occured while saving!" />
+  <locale  key="inventorycommand_save_success"               text="§gold{0}§darkgreen has saved the inventory of §gold{1}§darkgreen as §gold{2}§darkgreen!" />
+  <locale  key="inventorycommand_notexist"                   text="§redThe inventory §gold{0}§red has not been found!" />
+  <locale  key="inventorycommand_load_success"               text="§gold{0}§darkgreen has set the inventory of §gold{1}§darkgreen to §gold{2}§darkgreen!" />
+  <locale  key="inventorycommand_delete_success"             text="§gold{0}§red has removed the inventory §gold{1}§red!" />
+  <locale  key="inventorycommand_get_success"                text="§darkgreenYou have copied the inventory of §gold{0}§darkgreen!" />
+  <locale  key="inventorycommand_set_success"                text="§gold{2}§darkgreen has set the inventory of §gold{0}§darkgreen to a copy of §gold{1}§darkgreen's!" />
+
   <locale  key="invisiblecommand_invis"	                     text="§darkgreenInvisibility has been {If,{0}}activated{Else}deactivated{EndIf}" />
 
   <locale  key="kickcommand_kick"	                           text="§gold{0}§darkgreen has kicked the player §gold{1}§darkgreen from the game!{newline}§darkgreenReason: §gold{2}" />
