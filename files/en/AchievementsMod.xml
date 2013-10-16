@@ -18,7 +18,7 @@
 
   <locale key="achievementscommand_nodata"                   text="§redThere is currently no data for  §gold{0}§red!" />
   <locale key="achievementscommand_hidedata"                 text="§gold{0}§red hides his achievements!" />
-  <locale key="achievementscommand_player"                   text="§gold{0}§darkgreen has unlocked §gold{1}§darkgreen(§gold{2}§darkgreen hints) of §gold{3}§darkgreen achievements:" /> <!-- Kein 4. Arg. ist korrekt -->
+  <locale key="achievementscommand_player"                   text="§gold{0}§darkgreen has unlocked §gold{1}§darkgreen of §gold{3}§darkgreen achievements:" /> <!-- Kein 2./4. Arg. ist korrekt -->
 
   <locale key="relockcommand_relock"                         text="§gold{0}§red has lost the achievement §gold{1}§red!" />
 
