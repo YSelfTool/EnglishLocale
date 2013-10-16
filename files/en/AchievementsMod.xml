@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<achievementsmod>
+  <!-- Plugins Command Description -->
+  <locale key="description"                                   text="Enables achievements and milestones" />
+
+  <!-- Shared Messages -->
+  <locale key="shared_unknownachievement"                    text="§redThe achievement §gold{0}§red has not been found!" />
+  <locale key="shared_unlock"                                text="§darkgreenYou have successfully unlocked the achievement §gold{0}§darkgreen!" />
+  <locale key="shared_relock"                                text="§redYou have lost the achievement §gold{0}§red!" />
+
+  <!-- Commands -->
+  <locale key="achievementcommand_list"                      text="§darkgreenThere are §gold{0}§darkgreen achievements: §gold{1}" />
+  <locale key="achievementcommand_info_name"                 text="§darkgreenAchievement §gold{0}§darkgreen:" />
+  <locale key="achievementcommand_info_status"               text="§darkgreenYour status: {If,{0}}§greenUnlocked{Else}§gold{1}%{EndIf} §darkgreen(§gold{2}x§darkgreen unlocked)" />
+  <locale key="achievementcommand_info_description"          text="§darkgreenDescription: §gold{0}" />
+  <locale key="achievementcommand_info_hint"                 text="§goldHint§darkgreen: You can get a hint with §gold/achievement hint {0}§darkgreen!" />
+  <locale key="achievementcommand_hint"                      text="§darkgreenHint for the achievement §gold{0}§darkgreen:{newline}§gold{1}" />
+
+  <locale key="achievementscommand_nodata"                   text="§redThere is currently no data for  §gold{0}§red!" />
+  <locale key="achievementscommand_hidedata"                 text="§gold{0}§red hides his achievements!" />
+  <locale key="achievementscommand_player"                   text="§gold{0}§darkgreen has unlocked §gold{1}§darkgreen(§gold{2}§darkgreen hints) of §gold{3}§darkgreen achievements:" /> <!-- Kein 4. Arg. ist korrekt -->
+
+  <locale key="relockcommand_relock"                         text="§gold{0}§red has lost the achievement §gold{1}§red!" />
+
+  <locale key="unlockcommand_unlock"                         text="§darkgreenA request for unlocking §gold{1}§darkgreen has been sent to §gold{0}§darkgreen!" />
+
+</achievementsmod>
