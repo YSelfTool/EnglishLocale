@@ -32,7 +32,9 @@
   <locale  key="inventorycommand_delete_success"             text="§gold{0}§red has removed the inventory §gold{1}§red!" />
   <locale  key="inventorycommand_get_success"                text="§darkgreenYou have copied the inventory of §gold{0}§darkgreen!" />
   <locale  key="inventorycommand_set_success"                text="§gold{2}§darkgreen has set the inventory of §gold{0}§darkgreen to a copy of §gold{1}§darkgreen's!" />
-
+  <locale  key="inventorycommand_list"                       text="§darkgreenThere are §gold{0}§darkgreen inventories in the database: §gold{1}" /> 
+  <locale  key="inventorycommand_list_empty"                 text="§redThere are currently no inventories in the database!" /> 
+  
   <locale  key="invisiblecommand_invis"	                     text="§darkgreenInvisibility has been {If,{0}}activated{Else}deactivated{EndIf}" />
 
   <locale  key="kickcommand_kick"	                           text="§gold{0}§darkgreen has kicked the player §gold{1}§darkgreen from the game!{newline}§darkgreenReason: §gold{2}" />
