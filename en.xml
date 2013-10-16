@@ -104,7 +104,7 @@
   <locale key="description"	  value="English as good as I know it" />
 	<locale key="author"	  		value="YSelfTool" />
   <locale key="server"        value="https://github.com/YSelfTool/EnglishLocale/archive/master.zip" />
-  <locale key="version"				value="2.04" />
+  <locale key="version"				value="2.05" />
 
 	<setting key="shortcolor"	  value="false" />
 	<setting key="expressions"	value="true" />

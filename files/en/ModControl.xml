@@ -14,6 +14,12 @@
   <locale  key="shared_defaultstop"	                         text="§redShutting down the server!" />
   
   <!-- Commands -->
+  <locale key="countrycommand_autolocale_get"                text="§darkgreenNew players automatically get their country specific language: §gold{If,{0}}Yes{Else}No{EndIf}" />
+  <locale key="countrycommand_autolocale_set"                text="§darkgreenAutomatical display language for new players has been §gold{If,{0}}activated{Else}deactivated{EndIf}" />
+  <locale key="countrycommand_locate"                        text="§gold{0}§darkgreen is currently located in: §gold{1}§darkgreen, country code: §gold{2}" />
+  <locale key="countrycommand_refresh_success"               text="§greenThe database has been updated successfully!" />
+  <locale key="countrycommand_refresh_error"                 text="§redThe database has not been updated. The data may be corrupted!" />
+  
   <locale  key="maintenancecommand"	                         text="{If,{0}}§greenMaintenance activated!{Else}§redMaintenance deactivated!{EndIf}" />
   <locale  key="maintenancecommand_message"	                 text="§darkgreenThe maintenance message has been set to: §gold{0}" />
   
@@ -46,9 +52,9 @@
   <locale  key="setgroupcommand_del_group_success"           text="§darkgreenThe player §gold{0} §darkgreenhas been removed from the group §gold{1} §darkgreen." />
   <locale  key="setgroupcommand_del_group_fail"              text="§darkgreenThe player §gold{0} §darkgreenis not in the group §gold{1}§darkgreen." />
   <locale  key="setgroupcommand_del_groups"                  text="§darkgreenThe player §gold{0} §darkgreenhas been removed from the groups §gold{1} §darkgreen." />
-  <locale  key="setgroupcommand_display"                     text="§darkgreenThe player §gold{0} §darkgreenhas the display group §gold{1}§darkgreen." />
+  <locale  key="setgroupcommand_display"                     text="§darkgreenThe player §gold{0} §darkgreenhas the display group §reset{1}§reset §darkgreen(§reset{2}§darkgreen)." />
   <locale  key="setgroupcommand_copy"                        text="§darkgreenThe player §gold{0} §darkgreenhas now all groups that §gold{1}§darkgreen has." />
-  <locale  key="setgroupcommand_list_displaygroup"           text="§darkgreenDisplay group: §gold{0}" />
+  <locale  key="setgroupcommand_list_displaygroup"           text="§darkgreenDisplay group: §reset{0}§reset §darkgreen(§reset{1}§darkgreen)" />
   <locale  key="setgroupcommand_list_groups"                 text="§darkgreenGroups: §gold{0}" />
   
   <locale  key="worldconfigcommand_create_success"           text="§darkgreenThe world §gold{0} §darkgreenhas been created." />

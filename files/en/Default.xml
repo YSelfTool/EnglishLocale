@@ -14,6 +14,7 @@
   <locale key="unknowntime"				    text="§red§gold{0}§red is no valid time!" />
   <locale key="unknowngroup"				  text="§redGroup §gold{0}§red has not been found!" />
   <locale key="unknownzonetype"				text="§redZone type §gold{0}§red has not been found!" />
+  <locale key="unknownerror"          text="§redAn unknown error has occured!" />
   
   <!-- Zone System Find and Create Messages -->
   <locale key="zone_posa_cuboid"	    text="§darkgreenClick with a §gold{0}§darkgreen at the first corner!" />
