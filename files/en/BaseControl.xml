@@ -52,6 +52,12 @@
   <locale  key="languagecommand_info_version"               text="§darkgreenVersion: §gold{0}" />
   <locale  key="languagecommand_info_lastupdate"            text="§darkgreenLast update: §gold{Date,dd.MM.yyyy 'at' HH:mm,{0}}" />
 
+  <locale  key="logoutcommand_clear"                        text="§greenYour logout message has been removed!" />
+  <locale  key="logoutcommand_get"                          text="§darkgreenYour logout message is: §yellow{0}" />
+  <locale  key="logoutcommand_get_empty"                    text="§greenYou have not set any logout message!" />
+  <locale  key="logoutcommand_set_success"                  text="§darkgreenYour logout message has been set to: §yellow{0}" />
+  <locale  key="logoutcommand_set_error"                    text="§redThe logout message has to be at least §gold{0}§red and maximally §gold{1}§red letters long!{newline}Your logout message is §gold{2}§red letters long!" />
+
   <locale  key="measurecommand_set"	                        text="§darkgreenMeasure has been {If,{0}}§greenactivated{Else}§reddeactivated{EndIf}§darkgreen!" />
   <locale  key="measurecommand_info"	                      text="§darkgreenClick with a §gold{0}§darkgreen both right and left at blocks to mark an area!{newline}You can change the area as often as you want." />
   
