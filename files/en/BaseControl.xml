@@ -5,7 +5,7 @@
 
   <!-- Login and Logout System -->
   <locale  key="login"	                                    text="§yellow{0} joined the game." />
-  <locale  key="logout"	                                    text="§yellow{0} left the game." />
+  <locale  key="logout"	                                    text="§yellow{0}{If,{1}}({2}§reset§yellow){EndIf} left the game." />
   <locale  key="kick"	                                      text="§yellow{0} has been kicked!" />
   <locale  key="afkkick"	                                  text="§yellow{0} has been kicked because of inactivity!" />
   <locale  key="ban"                                        text="§yellow{0} has been banned {If,{1}}permanently{Else}temporarily{EndIf}!" />
