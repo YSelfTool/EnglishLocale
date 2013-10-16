@@ -109,7 +109,8 @@
 	<setting key="shortcolor"	  value="false" />
 	<setting key="expressions"	value="true" />
   <setting key="leet"         value="false" />
-           
+  
+  <file name="AchievementsMod.xml" />
   <file name="AntiIdle.xml" />
   <file name="BaseControl.xml" />
   <file name="Blocks.xml" />
