@@ -104,7 +104,7 @@
   <locale key="description"	  value="English as good as I know it" />
 	<locale key="author"	  		value="YSelfTool" />
   <locale key="server"        value="https://github.com/YSelfTool/EnglishLocale/archive/master.zip" />
-  <locale key="version"				value="2.07" />
+  <locale key="version"				value="2.08" />
 
 	<setting key="shortcolor"	  value="false" />
 	<setting key="expressions"	value="true" />
@@ -126,6 +126,7 @@
   <file name="TradingSystem.xml" />
   <file name="UltimateZones.xml" />
   <file name="UnlockManager.xml" />
+  <file name="UWModControl.xml" />
   <file name="WarnSystem.xml" />
   <file name="WorldLogger.xml" />
 </english>
