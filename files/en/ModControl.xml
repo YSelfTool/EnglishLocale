@@ -22,7 +22,16 @@
   
   <locale  key="maintenancecommand"	                         text="{If,{0}}§greenMaintenance activated!{Else}§redMaintenance deactivated!{EndIf}" />
   <locale  key="maintenancecommand_message"	                 text="§darkgreenThe maintenance message has been set to: §gold{0}" />
-  
+
+  <locale key="pluginscommand_list_count"                    text="§darkgreenThere are §gold{1}§darkgreen plugins installed on §gold{0}§darkgreen:" />
+  <locale key="pluginscommand_list_plugins"                  text="§darkgreenPlugins: §gold{0}" />
+  <locale key="pluginscommand_list_info"                     text="§green-&gt; §goldMore information: §red/plugins &lt;plugin-name&gt;" />
+  <locale key="pluginscommand_plugin_author"                 text="§darkgreenPlugin §gold{0}§darkgreen developed by §gold{1}§darkgreen:" />
+  <locale key="pluginscommand_plugin_version"                text="§greenVersion: §gold{0}§darkgreen{If,{1}}, compiled at §gold{Date,dd.MM.yyyy HH:mm,{2}}{EndIf}" />
+  <locale key="pluginscommand_plugin_website"                text="§greenWebsite: §gold{0}" />
+  <locale key="pluginscommand_plugin_description"            text="§greenTask: §gold{0}" />
+  <locale key="pluginscommand_error"                         text="§redThe plugin has not been found!" />
+
   <locale  key="reloadcommand"	                             text="§grayReloading §darkgray{0} §gray..." />
   
   <locale  key="saveallcommand_save"	                       text="§graySaving §darkgrayworlds§gray..." />
